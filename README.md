@@ -21,6 +21,10 @@ At step Two, you should be able to select Karst-400 type of device.
 
 This YAML file is a template that you can modify to your needs. The mapping when you add a device is done with DPs (data points) match so you may need to adapt for other devices.
 
+## Next
+
+I will probably add more DPs and sensors later, the YAML files will be available here. Feel free to fork or share your work with a request.
+
 ## Thanks
 You can support [make-all/tuya-local](https://github.com/make-all/tuya-local) for the great integration.
 
