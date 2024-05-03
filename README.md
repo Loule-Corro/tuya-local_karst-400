@@ -13,7 +13,7 @@ YAML file for Karst-400 solar inverter integration in Home Assitant, initially f
 
 Copy the file in the homeassistant/custom_components/tuya_local/devices/ folder before reloading.
 
-Now you can follow the steps at https://github.com/make-all/tuya-local?tab=readme-ov-file#configuration to add a new device.
+Now you can follow the steps at https://github.com/make-all/tuya-local?tab=readme-ov-file#configuration to add a new device. It seems that only 3.4 version of protocol is working with this device.
 
 At step Two, you should be able to select Karst-400 type of device.
 
