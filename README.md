@@ -21,6 +21,116 @@ At step Two, you should be able to select Karst-400 type of device.
 
 This YAML file is a template that you can modify to your needs. The mapping when you add a device is done with DPs (data points) match so you may need to adapt for other devices.
 
+For those interested for the data points list, this si what is returned by Tuya Cloud:
+```
+{
+  "result": {
+    "properties": [
+      {
+        "code": "reverse_energy_total",
+        "custom_name": "",
+        "dp_id": 2,
+        "value": integer
+      },
+      {
+        "code": "pv1_dc_data",
+        "custom_name": "",
+        "dp_id": 3,
+        "value": string
+      },
+      {
+        "code": "phase_a",
+        "custom_name": "",
+        "dp_id": 7,
+        "value": string
+      },
+      {
+        "code": "power_total",
+        "custom_name": "",
+        "dp_id": 10,
+        "value": integer
+      },
+      {
+        "code": "fault",
+        "custom_name": "",
+        "dp_id": 11,
+        "value": integer
+      },
+      {
+        "code": "work_mode",
+        "custom_name": "",
+        "dp_id": 12,
+        "value": string
+      },
+      {
+        "code": "inverter_alarmset_1",
+        "custom_name": "",
+        "dp_id": 13
+      },
+      {
+        "code": "inverter_alarmset_2",
+        "custom_name": "",
+        "dp_id": 14
+      },
+      {
+        "code": "inverter_type",
+        "custom_name": "",
+        "dp_id": 15,
+        "value": "Karst-400"
+      },
+      {
+        "code": "inverter_id",
+        "custom_name": "",
+        "dp_id": 16,
+        "value": string
+      },
+      {
+        "code": "imei_imsi",
+        "custom_name": "",
+        "dp_id": 17,
+        "value": string
+      },
+      {
+        "code": "temp_current",
+        "custom_name": "",
+        "dp_id": 18,
+        "value": integer
+      },
+      {
+        "code": "switch",
+        "custom_name": "",
+        "dp_id": 101,
+        "value": true
+      },
+      {
+        "code": "pv_power",
+        "custom_name": "",
+        "dp_id": 102,
+        "time": 1714654838510,
+        "value": 334
+      },
+      {
+        "code": "ac_power",
+        "custom_name": "",
+        "dp_id": 103,
+        "value": integer
+      },
+      {
+        "code": "energy_clear",
+        "custom_name": "",
+        "dp_id": 104,
+        "value": "0"
+      },
+      {
+        "code": "power_adj",
+        "custom_name": "",
+        "dp_id": 105,
+        "value": 100
+      }
+    ]
+  },
+```
+
 ## Next
 
 I will probably add more DPs and sensors later, the YAML files will be available here. Feel free to fork or share your work with a request.
