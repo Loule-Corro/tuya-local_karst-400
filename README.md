@@ -106,8 +106,7 @@ For those interested for the data points list, this si what is returned by Tuya 
         "code": "pv_power",
         "custom_name": "",
         "dp_id": 102,
-        "time": 1714654838510,
-        "value": 334
+        "value": integer
       },
       {
         "code": "ac_power",
