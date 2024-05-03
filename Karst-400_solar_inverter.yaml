@@ -1,0 +1,95 @@
+name: Solar kit 400W
+products:
+  - id: 0kllybtbzftaee7y
+    name: Karst-400
+primary_entity:
+  entity: sensor
+  class: energy
+  dps:
+    - id: 2
+      type: integer
+      name: reverse_energy_total
+      unit: kWh
+      class: measurement
+      mapping:
+        - scale: 100
+    - id: 15
+      name: inverter_type
+      type: string
+    - id: 16
+      name: inverter_id
+      type: string
+    - id: 17
+      name: imei_imsi
+      type: string
+secondary_entities:
+  - entity: switch
+    name: Inverter switch
+    category: config
+    dps:
+      - id: 101
+        type: boolean
+        name: switch
+        optional: true
+  - entity: sensor
+    name: AC Power
+    class: power
+    dps:
+      - id: 103
+        type: integer
+        name: sensor
+        unit: W
+        force: true
+        class: measurement
+        mapping:
+          - scale: 10
+  - entity: sensor
+    class: power
+    name : Total Power
+    dps:
+      - id: 10
+        type: integer
+        name: sensor
+        unit: W
+        optional: true
+        class: measurement
+        mapping:
+          - scale: 1000
+  - entity: sensor
+    name: PV Power
+    class: power
+    dps:
+      - id: 102
+        type: integer
+        name: sensor
+        unit: W
+        force: true
+        class: measurement
+        mapping:
+          - scale: 10
+  - entity: sensor
+    name: Energy out
+    class: energy
+    dps:
+      - id: 2
+        type: integer
+        name: sensor
+        unit: kWh
+        class: total
+        mapping:
+          - scale: 100
+  - entity: sensor
+    name: Temperature
+    class: temperature
+    dps:
+      - id: 18
+        name: sensor
+        type: integer
+        class: temperature
+  - entity: sensor
+    name: Power Adjustement
+    dps:
+      - id: 105
+        name: sensor
+        type: integer
+        class: power_factor
