@@ -1,7 +1,7 @@
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
 [![hacs_badge](https://img.shields.io/badge/HACS-make--all%2Ftuya--local-41BDF5.svg)](https://github.com/make-all/tuya-local)
 
-## Tuya Local Integration file for solar inverter Karst-400 (based on WVC-400) 
+# Tuya Local Integration file for solar inverter Karst-400 (based on WVC-400) 
 
 Based on the custom integration [make-all/tuya-local](https://github.com/make-all/tuya-local)
 
