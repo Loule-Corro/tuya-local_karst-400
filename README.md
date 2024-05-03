@@ -5,7 +5,7 @@
 
 Based on the custom integration [make-all/tuya-local](https://github.com/make-all/tuya-local)
 
-YAML file for Karst-400 solar inverter integration in Home Assitant, initially for the Advisen Soria solar Kit
+YAML file for Karst-400 solar inverter integration in Home Assitant, initially for the Avidsen Soria 400W solar Kit
 
 ## Installation
 
