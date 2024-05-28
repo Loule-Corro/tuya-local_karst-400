@@ -86,6 +86,7 @@ secondary_entities:
         name: sensor
         type: integer
         class: temperature
+        unit: °C
   - entity: sensor
     name: Power Adjustement
     dps:
